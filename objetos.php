@@ -53,8 +53,11 @@ $clienteJorge->Email = "jeas@outlook.com";
 $clienteJorge->Telefone = "(85) 9.8818-5327";
 $clienteJorge->Idade = 67;
 
-// Mostra Atributo da Classe
+// Mostra Atributo Nome do Cliente da Classe
 echo "Cliente: {$clienteJorge->Nome} <br>";
+
+// Mostra Atributo Telefone da Classe
+echo "Telefone: {$clienteJorge->Telefone} <br>";
 
 // Atualiza atributo de Idade da Classe
 $clienteJorge->AtualizarIdade(1);

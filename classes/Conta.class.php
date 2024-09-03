@@ -61,6 +61,6 @@ class Conta
     */
     function __destruct()
     {
-        echo "Objeto Conta {$this->Codigo} de {$this->Titular} finalizada... <br>";
+        echo "Objeto Conta de {$this->Titular} finalizada... <br>";
     }
 }

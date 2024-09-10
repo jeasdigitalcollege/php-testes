@@ -1,4 +1,8 @@
 <?php
+
+// Define a Classe Conta. 
+// Atentar que a primeira letra é maiuscula
+
 class Conta
 {
     // Criar variáveis PHP que serão os atributos

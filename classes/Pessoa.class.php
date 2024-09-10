@@ -1,7 +1,10 @@
 <?php
+
+// Define a Classe Pessoa. 
+// Atentar que a primeira letra é maiuscula
 class Pessoa
 {
-    // Criar variáveis PHP que serão os atributos
+    // Criar variáveis PHP que serão as propriedades da Classe Pessoa
     // Atentar que a primeira letra é maiuscula
     var $Codigo;
     var $Nome;
@@ -13,7 +16,8 @@ class Pessoa
 
     /* 
         Método Construtor
-        Executa automaticamente no instanciamento de um objeto. Define o comprtamento inicial de um objeto.
+        Executa automaticamente no instanciamento de um objeto. 
+        Define o comportamento inicial de um objeto.
     */
     function __construct($Codigo, $Nome, $Altura, $Idade, $Nascimento, $Escolaridade, $Salario)
     {
@@ -27,7 +31,7 @@ class Pessoa
     }
 
     /*  Método Crescer
-        aumenta a altura em $centímetros
+        Aumenta a altura em $centímetros
         Atentar que o método é uma função que recebe parametros e pode ou não retornar resultado. 
         Métodos que modificam o estado de um objeto (como Retirar e Depositar) não necessariamente precisam retornar algo, pois a operação se completa ao alterar o objeto.
         Métodos que fornecem um valor ou informação (como ObterSaldo) precisam de return para enviar o valor de volta para quem solicitou, permitindo que o programa utilize esse dado em outros contextos. 
@@ -41,7 +45,7 @@ class Pessoa
 
     /*  
         Método Formar
-        altera a Escolaridade para $titulacao
+        Altera a Escolaridade para $titulacao
     */
     function Formar($titulacao)
     {
@@ -50,7 +54,7 @@ class Pessoa
 
     /*  
         Método Envelhecer
-        aumenta a idade em $anos
+        Aumenta a idade em $anos
     */
     function Envelhecer($anos)
     {

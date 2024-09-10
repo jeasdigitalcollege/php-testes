@@ -1,4 +1,7 @@
 <?php
+
+// Arquivo: objetos.php
+
 # Carrega as classes
 include_once 'classes/Pessoa.class.php';
 include_once 'classes/Conta.class.php';

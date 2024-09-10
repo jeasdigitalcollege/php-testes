@@ -1,0 +1,12 @@
+.galeria-imagens {
+  display: flex;
+  gap: 10px; /* Espaço entre as imagens */
+  flex-wrap: wrap;
+}
+
+.galeria-imagens img {
+  max-width: 100%; /* Ajusta a largura da imagem ao contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+  object-fit: cover; /* Cobre o contêiner sem distorcer a imagem */
+  border-radius: 8px; /* Deixa as bordas levemente arredondadas */
+}
